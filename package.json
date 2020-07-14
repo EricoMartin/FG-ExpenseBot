@@ -1,7 +1,7 @@
 {
   "name": "expenseng-bot",
   "version": "0.0.1",
-  "description": "A Twitter Bot by ExpenseNG.com!",
+  "description": "A Twitter Bot for FGExpense!",
   "main": "server.js",
   "engines": {
     "node": ">=10",
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hngi/expense-bot.git"
+    "url": "git+https://github.com/EricoMartin/FG-ExpenseBot.git"
   },
   "keywords": [
     "twitter",
@@ -47,10 +47,10 @@
     "expenseng",
     "nigeria"
   ],
-  "author": "Team-Granite HNGi7 (https://hngi7.hng.tech/)",
+  "author": "EricoMartin (https://github.com/EricoMartin/FG-ExpenseBot/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hngi/expense-bot/issues"
+    "url": "https://github.com/EricoMartin/FG-ExpenseBot/issues"
   },
-  "homepage": "https://github.com/hngi/expense-bot#readme"
+  "homepage": "https://github.com/EricoMartin/FG-ExpenseBot#readme"
 }

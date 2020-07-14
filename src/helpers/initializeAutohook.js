@@ -1,5 +1,5 @@
-const { Autohook } = require("twitter-autohook");
-const config = require("../config");
+const { Autohook } = require('twitter-autohook');
+const config = require('../config');
 
 module.exports = async function() {
   const webhook = new Autohook();
@@ -7,6 +7,6 @@ module.exports = async function() {
   await webhook.start(`${config.baseUrl}/webhook/twitter`);
   await webhook.subscribe({
     oauth_token: config.auth.token,
-    oauth_token_secret: config.auth.token_secret,
+    oauth_token_secret: config.auth.token_secret
   });
 };
