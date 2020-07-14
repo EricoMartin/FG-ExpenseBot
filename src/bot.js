@@ -15,9 +15,9 @@ if (!Object.values(config.twitterKeys).every(Boolean)) {
   console.lol('Bot starting...');
   initializeAutohook();
 
-  // autohook();
+  autohook();
 
-  /*
+
   bot.post('statuses/update', {
     status: 'Test 3: All creds good to go! #FGExpense'
   }, function (err, data) {
@@ -26,5 +26,4 @@ if (!Object.values(config.twitterKeys).every(Boolean)) {
     }
     console.lol(data);
   });
-  */
-}
+} 
