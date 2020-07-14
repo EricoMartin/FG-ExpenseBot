@@ -1,0 +1,56 @@
+{
+  "name": "expenseng-bot",
+  "version": "0.0.1",
+  "description": "A Twitter Bot by ExpenseNG.com!",
+  "main": "server.js",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "format": "pretty-quick",
+    "precommit": "pretty-quick --staged",
+    "dev": "nodemon ./server.js",
+    "lint": "eslint \"src/**/*.js\"",
+    "lint:fix": "eslint --fix \"src/**/*.js\""
+  },
+  "pre-commit": [
+    "format"
+  ],
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "ngrok": "^3.2.7",
+    "nodemon": "^2.0.4",
+    "prettier": "1.19.1",
+    "pretty-quick": "^1.8.0"
+  },
+  "dependencies": {
+    "console.lol": "^0.1.2",
+    "dotenv": "^6.1.0",
+    "express": "^4.17.1",
+    "oauth": "^0.9.15",
+    "twit": "^2.2.11",
+    "twitter-autohook": "^1.7.1",
+    "unique-random-array": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hngi/expense-bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "hng",
+    "expenseng",
+    "nigeria"
+  ],
+  "author": "Team-Granite HNGi7 (https://hngi7.hng.tech/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hngi/expense-bot/issues"
+  },
+  "homepage": "https://github.com/hngi/expense-bot#readme"
+}
